@@ -51,5 +51,5 @@
     - name: pull an image
       shell: "docker pull alishahrudi/django_drf:{{BUILD_TAG}}"
     - name: run image 
-      shell: "docker run alishahrudi/django_drf:{{BUILD_TAG}}"
+      shell: "docker run -d -p 8000:8000 alishahrudi/django_drf:{{BUILD_TAG}}"
 ...

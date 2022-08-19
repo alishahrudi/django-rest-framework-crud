@@ -2,4 +2,4 @@
 ansible_connection = ssh 
 
 [remote]
-ubuntu ansible_host=192.168.43.53 ansible_user=root
+ubuntu ansible_host=192.168.254.215 ansible_user=root

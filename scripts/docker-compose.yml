@@ -1,0 +1,6 @@
+version: "3"
+services:
+  rest-api: 
+    image: alishahrudi/django_drf:$BUILD_NUMBER
+    ports:
+      - 8000:8000

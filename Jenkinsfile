@@ -1,9 +1,8 @@
 pipeline{
     agent any
     environment{
-        PASS = credentials('PASS')
+        PASS=credentials('PASS')
     }
-    PASS = credentials('PASS')
     stages{
         stage('BUILD'){
             steps{
